@@ -1,4 +1,6 @@
 /target/
+debug
+target
 
 # Local secrets and auth material
 tokens.json
@@ -9,7 +11,13 @@ tokens.json
 # Local scratch/reference directories
 /gradio_client-2.0.3/
 
+# Rust / tooling noise
+**/*.rs.bk
+**/mutants.out*/
+*.pdb
+
 # OS/editor noise
 .DS_Store
 *.swp
 *.swo
+#.idea/
